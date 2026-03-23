@@ -1,0 +1,66 @@
+html {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 417px;
+  background: url("./feilds.jpeg") no-repeat center;
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+button {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-weight: bold;
+  width: 200px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+#inc-button {
+  background: #5fa4d9;
+  border: solid 5px #5fa4d9;
+}
+#inc-button:hover { 
+  border: solid 5px #d9b365;
+}
+#inc-button:active {
+  transform: scale(0.95);
+}
+
+#save-button {
+  border: solid 5px #8a0000;
+  background: #8a0000;
+}
+
+#save-button:hover { 
+  border: solid 5px #d9b365;
+}
+
+#save-button:active {
+   transform: scale(0.95);
+}
